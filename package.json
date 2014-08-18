@@ -1,0 +1,30 @@
+{
+  "name": "hapi-multi-logger",
+  "version": "0.0.1",
+  "description": "Hapi.js plugin for basic server-side logging.",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "logging",
+    "monitoring",
+    "bunyan",
+    "good",
+    "plugin"
+  ],
+  "author": "Rui Quelhas <rui@apha-iv.com>",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^2.5.1",
+    "bunyan": "^1.0.0"
+  },
+  "devDependencies": {
+    "hapi": "^6.5.1",
+    "lab": "^4.0.2"
+  }
+}
