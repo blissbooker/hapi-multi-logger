@@ -4,7 +4,7 @@
   "description": "Hapi.js plugin for basic server-side logging.",
   "main": "index.js",
   "scripts": {
-    "test": "lab -c"
+    "test": "lab -c -v"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "hapi": "^6.5.1",
-    "lab": "^4.0.2"
+    "lab": "^4.0.2",
+    "sinon": "^1.10.3"
   }
 }
